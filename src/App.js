@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 
 // import Welcome from './components/welcome'; // props
 // import CustomTextInput from './components/customTextInput'; // ref
+import NativeEventDemo from './components/NativeEventDemo' 
 
 // import Container from './components/05 Customize/Handles and Previews/Container';
 // import Container from './components/05 Customize/Drop Effects/Container';
@@ -130,7 +131,7 @@ class App extends Component {
         
         <button onClick={this.recreaseNum.bind(this)}>Add Num</button>
         <dir>{num}</dir>
-        {/* <CustomTextInput/> */}
+        <NativeEventDemo/>
         {/* <Container /> */}
       </div>
     );
