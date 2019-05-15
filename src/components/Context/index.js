@@ -1,13 +1,17 @@
 import React from 'react'
+import Button from './Button'
 
-const ThemeContext = React.createContext('light');
+// 创建themeContext,默认传递的值为light
+// ThemeContext是一个对象
+export const Context = React.createContext('light');
 
 class App extends React.Component {
   render() {
     return (
-      <ThemeContext.Provider value="dark">
+      // 传递dark
+      <Context.Provider value={{ theme: 'light' }}>
         <Toolbar/>
-      </ThemeContext.Provider>
+      </Context.Provider>
     )
   }
 }
@@ -15,15 +19,17 @@ class App extends React.Component {
 function Toolbar(props) {
   return (
     <div>
-      <ThemedButton />
+      <Button />
     </div>
   )
 }
 
-function ThemedButton(props) {
-  return (
-    <ThemeContext>
-      {theme => <Button {...props} theme={theme}/>}
-    </ThemeContext>
-  )
-}
+// class ThemeButton extends React.Component {
+//   static contextType = ThemeContext;
+
+//   render() {
+//     return <Button theme={this.context}/>
+//   }
+// }
+
+export default App

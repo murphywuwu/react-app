@@ -14,11 +14,11 @@ import registerServiceWorker from './registerServiceWorker';
 // }
 
 // function tick () {
-//     // console.log(element);
+    // console.log(element);
 //     ReactDOM.render(<Clock date={new Date()}/>, document.getElementById('root'));
 // }
 
 // setInterval(tick, 1000);
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
 
 registerServiceWorker();

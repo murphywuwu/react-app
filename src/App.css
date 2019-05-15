@@ -26,3 +26,11 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.log{
+  color: #0a0
+}
+.helloworld,.hello-component{
+  margin: 10px;
+  padding: 10px;
+  outline: 1px solid #ccc;
+}
