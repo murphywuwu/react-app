@@ -1,5 +1,4 @@
 import React from 'react'
-// import Button from './Button'
 
 /* 
  * 版本1:手动传递theme prop到Button组件
