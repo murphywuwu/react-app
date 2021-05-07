@@ -1429,7 +1429,7 @@ caniuse-lite@^1.0.30000697, caniuse-lite@^1.0.30000792:
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
-  resolved "http://r.cnpmjs.org/capture-stack-trace/download/capture-stack-trace-1.0.1.tgz#a6c0bbe1f38f3aa0b92238ecb6ff42c344d4135d"
+  resolved "https://r.cnpmjs.org/capture-stack-trace/download/capture-stack-trace-1.0.1.tgz#a6c0bbe1f38f3aa0b92238ecb6ff42c344d4135d"
   integrity sha1-psC74fOPOqC5Ijjstv9Cw0TUE10=
 
 case-sensitive-paths-webpack-plugin@2.1.1:
@@ -5617,7 +5617,7 @@ promise@^7.1.1:
 
 prop-types@^15.6.2:
   version "15.7.2"
-  resolved "http://r.cnpmjs.org/prop-types/download/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  resolved "https://r.cnpmjs.org/prop-types/download/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
   dependencies:
     loose-envify "^1.4.0"
@@ -5688,9 +5688,10 @@ querystring@0.2.0:
   version "0.2.0"
   resolved "http://registry.npm.taobao.org/querystring/download/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
 
-querystringify@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.npm.taobao.org/querystringify/download/querystringify-2.0.0.tgz#fa3ed6e68eb15159457c89b37bc6472833195755"
+querystringify@^2.1.1:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 randomatic@^3.0.0:
   version "3.1.0"
@@ -5794,7 +5795,7 @@ react-error-overlay@^3.0.0:
 
 react-is@^16.8.1:
   version "16.8.5"
-  resolved "http://r.cnpmjs.org/react-is/download/react-is-16.8.5.tgz#c54ac229dd66b5afe0de5acbe47647c3da692ff8"
+  resolved "https://r.cnpmjs.org/react-is/download/react-is-16.8.5.tgz#c54ac229dd66b5afe0de5acbe47647c3da692ff8"
   integrity sha1-xUrCKd1mta/g3lrL5HZHw9ppL/g=
 
 react-lifecycles-compat@^3.0.2:
@@ -6130,7 +6131,8 @@ require-uncached@^1.0.3:
 
 requires-port@^1.0.0:
   version "1.0.0"
-  resolved "http://registry.npm.taobao.org/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 resolve-dir@^1.0.0:
   version "1.0.1"
@@ -7070,10 +7072,11 @@ url-parse-lax@^1.0.0:
     prepend-http "^1.0.1"
 
 url-parse@^1.1.8, url-parse@^1.4.3:
-  version "1.4.3"
-  resolved "http://registry.npm.taobao.org/url-parse/download/url-parse-1.4.3.tgz#bfaee455c889023219d757e045fa6a684ec36c15"
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
+  integrity sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q==
   dependencies:
-    querystringify "^2.0.0"
+    querystringify "^2.1.1"
     requires-port "^1.0.0"
 
 url@^0.11.0:
